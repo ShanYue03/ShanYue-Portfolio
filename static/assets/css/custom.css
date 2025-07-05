@@ -1,0 +1,196 @@
+body {
+	font-family: 'Poppins', Arial, sans-serif;
+	background: #f8f9fb;
+	color: #222;
+	letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Poppins', Arial, sans-serif;
+	font-weight: 600;
+	color: #1a1a1a;
+	letter-spacing: 0.03em;
+}
+
+.special.container h2 i,
+header h2 i {
+	color: #2ec4b6;
+	margin-right: 0.5em;
+}
+
+.card {
+	background: #fff;
+	border-radius: 18px;
+	box-shadow: 0 4px 24px rgba(44,62,80,0.07);
+	padding: 2.5em 2em;
+	margin-bottom: 2.5em;
+}
+
+.profile-img-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1.5em;
+}
+.profile-img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	object-fit: cover;
+	box-shadow: 0 2px 12px rgba(44,62,80,0.10);
+	border: 4px solid #fff;
+	background: #e0e4ea;
+}
+
+.buttons .button, .button.primary {
+	background: #2ec4b6;
+	color: #fff;
+	border-radius: 30px;
+	padding: 0.75em 2em;
+	font-weight: 600;
+	font-size: 1.1em;
+	transition: background 0.2s, box-shadow 0.2s;
+	box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+	border: none;
+}
+.buttons .button:hover, .button.primary:hover {
+	background: #1a9e8a;
+	box-shadow: 0 4px 16px rgba(44,62,80,0.12);
+}
+
+section.wrapper {
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+}
+
+.footer-minimal {
+	background: #f8f9fb;
+	color: #888;
+	border-top: 1px solid #e0e4ea;
+	padding-top: 2em;
+}
+
+ul.icons li a {
+	color: #2ec4b6;
+	transition: color 0.2s;
+}
+ul.icons li a:hover {
+	color: #1a9e8a;
+}
+
+/* Section dividers */
+section.wrapper:not(:last-child) {
+	border-bottom: 1px solid #e0e4ea;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+	.card {
+		padding: 1.5em 1em;
+	}
+	.profile-img {
+		width: 90px;
+		height: 90px;
+	}
+}
+@media (max-width: 600px) {
+	.card {
+		padding: 1em 0.5em;
+	}
+	.profile-img {
+		width: 70px;
+		height: 70px;
+	}
+}
+
+#banner .banner-name {
+	font-size: 2.1em;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	margin-bottom: 0.2em;
+	text-transform: uppercase;
+	color: #fff;
+}
+#banner .banner-name i {
+	font-size: 0.8em;
+	vertical-align: middle;
+	margin-right: 0.3em;
+}
+#banner .banner-subtitle {
+	font-size: 1.25em;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 1.1em;
+	letter-spacing: 0.08em;
+}
+#banner .banner-intro {
+	max-width: 540px;
+	margin: 0 auto 2em auto;
+	font-size: 0.98em;
+	font-weight: 400;
+	color: #fff;
+	line-height: 1.9;
+	text-align: center;
+	font-family: 'Lato', Arial, sans-serif;
+	text-transform: none;
+	font-variant-caps: normal;
+	letter-spacing: 0.01em;
+}
+#banner .banner-intro {
+	text-transform: lowercase;
+}
+#banner .banner-intro::first-letter {
+	text-transform: uppercase;
+}
+#banner .buttons .button {
+	background: transparent !important;
+	color: #fff !important;
+	border: 2px solid #fff !important;
+	border-radius: 30px;
+	padding: 0.75em 2em;
+	font-weight: 600;
+	font-size: 1.1em;
+	transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+	box-shadow: none;
+}
+#banner .buttons .button:hover {
+	background: rgba(255,255,255,0.12) !important;
+	color: #fff !important;
+	border-color: #fff !important;
+}
+
+.feature-description {
+	font-size: 0.97em;
+	text-align: justify;
+	color: #222;
+	margin-bottom: 0;
+}
+
+/* Add more padding to the card/frame for the features section */
+#main .card, .wrapper.style1.container.special.card {
+	padding: 3em 2.5em;
+}
+
+.feature-header {
+	font-size: 1.13em;
+	white-space: nowrap;
+}
+
+.wrapper.style3.container.special.card .major h2 {
+	font-size: 2em;
+}
+
+.wrapper.style3.container.special.card .image.featured img,
+.image.featured img {
+	filter: none !important;
+	mix-blend-mode: normal !important;
+	opacity: 1 !important;
+	background: none !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+.image.featured:before {
+	display: none !important;
+	background: none !important;
+	content: none !important;
+} 
